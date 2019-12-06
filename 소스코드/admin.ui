@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admin</class>
+ <widget class="QDialog" name="Admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>311</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 225, 148);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>19</y>
+     <width>289</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>9999</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;여기어때 잘난체 OTF&quot;;
+color: rgb(140, 80, 66);</string>
+   </property>
+   <property name="text">
+    <string>회원정보 출력</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>350</y>
+     <width>289</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>9999</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;여기어때 잘난체 OTF&quot;;
+color: rgb(140, 80, 66);</string>
+   </property>
+   <property name="text">
+    <string>회원정보 삭제</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255,255,255);font: 75 7pt &quot;여기어때 잘난체 OTF&quot;;
+color: rgb(140, 80, 66);</string>
+        </property>
+        <property name="placeholderText">
+         <string>ID</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(217,148,108);color: rgb(255, 255, 255);font: 75 7pt &quot;여기어때 잘난체 OTF&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Delete User's Information</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(217,148,108);color: rgb(255, 255, 255);font: 75 7pt &quot;여기어때 잘난체 OTF&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Delete All Users' Information</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>271</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(217,148,108);color: rgb(255, 255, 255);font: 75 7pt &quot;여기어때 잘난체 OTF&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Display All Users' Information</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(217,148,108);color: rgb(255, 255, 255);font: 75 7pt &quot;여기어때 잘난체 OTF&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Display All Users' Musics</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(140, 80, 66);font: 75 7pt &quot;여기어때 잘난체 OTF&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
